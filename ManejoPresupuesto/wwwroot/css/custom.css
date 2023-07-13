@@ -1,0 +1,82 @@
+﻿#reordenable tr {
+    cursor: move;
+}
+
+.contenedor-totales{
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    text-align: center;
+}
+
+.activos {
+    color: #0891b2;
+}
+
+.pasivos {
+    color: #dc2626;
+}
+
+body {
+    background-color: #f1f5f9;
+    color: #4b5563;
+}
+
+.font-bold{
+    font-weight: bold
+}
+
+header {
+    background-color: #f1f5f9;
+    padding: 2rem 2rem 0 2rem;
+    align-items: center;
+}
+
+.fondonav {
+    background-color: #94a3b8;
+    border-radius: 1rem;
+    color: white
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 1rem
+}
+.nav-link {
+    border-radius: 1rem
+}
+
+.btn-primary {
+    background-color: #06b6d4;
+    border-color: #06b6d4
+}
+    .btn-primary:hover {
+        background-color: #0891b2;
+        border-color: #0891b2
+    }
+
+.btn-danger {
+    background-color: #ef4444;
+    border-color: #ef4444
+}
+    .btn-danger:hover {
+        background-color: #dc2626;
+        border-color: #dc2626
+    }
+.list-group-item {
+    background-color: #f1f5f9;
+    color: #4b5563;
+}
+.accordion-button {
+    background-color: #e2e8f0 !important;
+    color: #4b5563 !important;
+}
+table {
+    color: #4b5563
+}
+
+.botonmasgrande{
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    border-radius: 0.7rem
+}
